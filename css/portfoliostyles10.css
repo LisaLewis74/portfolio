@@ -1,0 +1,1048 @@
+/*Lisa Lewis, 699355575 Assignment 3, December 20, 2022*/
+@media only screen and (max-width: 600px) {
+	
+body
+{
+
+    background-color:  #e6f2ff;
+    font-family: arial, Helvetico, sans-serif;
+    font-size: 1.00em;
+	text-align: center;
+}
+
+.top text
+{
+	text-align: center;
+}
+
+color: body
+{
+    background-color:  #e6f2ff;
+    font-family: arial, Helvetico, sans-serif;
+    font-size: 1.00em;    
+
+}
+#container
+{
+	background-color: #1D1D1C;
+}
+
+h1 {
+   
+	text-align: center;
+}
+
+header
+
+{
+	border: solid 3px;
+	margin-top: -1.5em; 
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #404040;
+	text-align: center;
+	
+}
+
+intro  {
+	
+	color: #828ea7;
+	
+}
+
+
+#intro  {
+	
+	
+	border: solid 3px
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-radius: 40px;
+	box-shadow: 40px 40px 40px #404040;
+	
+	
+}
+
+nav  {
+	
+	font-family: Lucinda, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-width: bold;
+	text-align: center;
+	padding: 15px;
+	margin-top: -1.5em;
+	margin-bottom: 10px;
+	border-top: 5px solid #FFFFF;
+	border-bottom: 5px solid #FFFFF;
+}
+
+me  {
+	
+	color: #c1f0f0;
+	
+}
+
+nav li  {
+	
+	display: inline;
+	float: left;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 15%
+	whitespace: nowrap;
+	border-radius: 0;
+	background-color: #e6b3ff;
+	text-align:left;
+	
+}
+
+#image
+{
+	float:right;
+}
+
+.desktop { 
+
+	display: none; 
+}
+
+#outerwrapper  {
+	
+	width = 100;	
+	
+}
+
+main
+{
+	
+	clear: left;
+	margin-top: -0.3em;
+	border-radius: 0;
+	
+}
+
+#main
+{
+	clear: both; 
+	text-align:left;
+	max-width: 100%;
+	border: solid 3px
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #404040;
+	text-align: center;
+	background-color: #ffe6e6;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding:18 ;
+	text-indent: auto;
+}
+
+centermenu
+{
+	
+}
+#centermenu  {
+	text-align = "center";
+}
+
+li  {
+	display: inline;
+}
+
+#inline  {
+	
+	text-align: center:
+	
+}
+	
+	
+
+.myname { 
+	font-family: Futura, Calibri, sans-serif;
+  	font-size: 2em;
+}
+	
+a:hover
+{
+	background-color: #ff8c66
+}
+
+img 
+{
+	max-width: 100%;
+	margin-right: 3%;
+
+}
+
+footer
+{
+	
+	font-size: .70em;
+	margin-top: 2em;
+	
+}
+
+#footer
+{
+	
+	border: solid 3px
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #404040;
+	background-color: #c1f0f0;
+	text-align: center;
+}
+
+/* Style for anchor elements within the main element*/
+
+main a  {
+	
+	border-radius: 1em;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0.5em;
+	text-decoration: none;
+	
+}
+
+/* Style for anchor elements within the footer element */ 
+
+footer a { 
+
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+/* Style for h1 element */
+
+h1  {
+	
+	text-align: center;
+	
+}
+
+/* Style for images within the 
+ element */
+
+figure img { 
+
+	background-color: #1D1D1C;
+	display: inline;
+	height: 8em;
+	width: 28%;
+	margin: 1%;
+	padding: 1%;
+	
+}
+
+banner  {
+	
+	width: 100%;
+	
+}
+
+/* Style for anchor elements within the figure element */ 
+
+figure a  {
+	
+	background-color: transparent;
+	padding: 0;
+	text-decoration: none;
+	
+}
+#p  {
+	
+text-align:center
+
+}
+
+
+#logo {
+	position: relative;
+    bottom: 58px;
+}
+
+.tablet  {
+	
+	display: block;
+	margin-top: -3em;
+	margin-bottom: -1em;
+	
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+section  {
+	
+	padding-bottom: 3em;
+	
+}
+
+/*Style for h1 element within the section element */
+
+section h1  {
+	
+	text-align: left;
+	
+}
+
+/*Style for anchor element within the section element */
+
+section a  {
+	
+	background-color: transparent;
+	color: #1D1D1C;
+	font-weight: normal;
+	padding: 0;
+	text-decoration: underline;
+	
+}
+
+/* Style for article element */
+
+article  }
+
+	background-color: #C1D9CA;
+	float: left;
+	margin: 0.5%;
+	padding 0.5%;
+	text-align: center;
+	width: 31%;
+	
+}
+
+main article img  {
+	
+	border: solid 0.1em #1D1D1C;
+	margin-left: auto;
+	margin-right; auto;
+	
+}
+
+/*Style for paragrath element contained within the main
+article element */
+
+main article p  {
+	
+	color: #000000;
+	margin-top: 2%;
+	padding: 1%;
+	text-align: left;
+	
+}
+
+/* Style for unordered list element 
+contained within the main article element */
+
+main article ul  {
+	
+	text-align: left;
+	
+}
+
+th  {
+	
+	 background-color: #F5F5F0;
+}
+
+table, th, td {
+	
+    border: 0.1em solid #000000;
+
+}
+
+caption {
+	
+    color: #003300;
+
+}
+
+td {
+	
+    height: 2em;
+	vertical-align: center;
+	
+
+}
+
+table {
+	
+    margin-top: 2em;
+	width: 80%;
+	border-collapse: collapse;
+
+}
+
+caption, th, td {
+	
+    padding: 1em;
+
+}
+
+/* Style for table element */
+
+table {
+	
+	border: 0.1em solid #000000;
+	border-collapse: collapse;
+	margin-left: auto; 
+	margin-right: auto;
+	width: 100%;
+	
+}
+
+/* Style specifies border and padding for th and td elements */
+ 
+th, td {
+	
+	border: 0.1em solid #000000;
+	padding: 1em;
+	
+}
+
+th  {
+	
+	background-color: 1D1D1C;
+	color: #FFFFFF;
+	
+}
+
+/* Style for caption element */
+
+caption  {
+	
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+	
+}
+
+/* Style rule for input, select, and textarea form elements */
+
+input, select, textarea {
+	
+	display: block;
+	margin-bottom: 1em;
+	
+}
+
+/* Style rule for label element */
+
+label  {
+	
+	display: block;
+	text-align: left;
+	
+}
+
+/* Style rule for unordered list within a form */
+
+form ul  {
+	
+	list-style-type: none;
+	
+}
+
+/* Style rule for chkbx class */
+
+.chkbx  {
+	
+	display: inline-block;
+	
+}
+
+/* Style rule label element */
+
+label  {
+	
+	float: left;
+	padding-right; 0.5em;
+	text-align: left;
+	width: 10em;
+	
+}
+
+/* Style rule for btn class */
+
+.btn  {
+	
+	margin-left: 12em;
+	
+}
+
+/* Style rule for form element */
+
+form  {
+	
+	background-color: #ff80bf;
+	padding: 1em;
+	
+}
+
+/*Style rule for paragraph with form element */
+
+form p  {
+	
+	color: #000000;
+	
+}
+
+/* Style rule for the video class */
+.video  {
+	
+	padding: 1em;
+	text-align: center;
+	
+}
+
+/* Style rule for video element */
+
+video {
+	
+	border: 0.5em ridge #FFFFFF;
+	height: auto;
+	max-width: 100%;
+	
+}
+
+/*Media query for tablet viewports*/
+
+@media only screen and (min-width: 481px) {
+	
+body  {
+	
+	background-color: #c1f0f0;;
+
+}
+
+header  {
+	
+	text-align: center;
+	
+}
+
+nav  {
+	
+	font-family: Lucinda, "Times New Roman", sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+	
+}
+
+nav li  {
+	
+	background-color: #4604b1;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+	
+}
+
+th  {
+	
+	 background-color: #F5F5F0;
+}
+
+table, th, td {
+    border: 0.1em solid #000000;
+}
+
+main
+{
+	
+	clear: left;
+	margin-top: -0.3em;
+	border-radius: 0;
+	
+}
+	
+#main
+{
+	clear: both; 
+	max-width: 100%;
+	border: solid 3px
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #404040;
+	text-align: center;
+	background-color: #ffe6e6;
+}
+
+intro  {
+	
+	color: #e6b3ff;
+	text-align: left;
+	
+}
+
+
+#intro  {
+	
+	
+	border: solid 3px;
+	display:flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #404040;
+	text-align: center;
+	
+}
+	
+
+footer  {
+	
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF;
+	
+}
+
+/* Style for anchor elements within the main element*/ 
+
+main a  {
+	
+	background-color: #9D9D93;
+	border-radius: 1em;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0.5em;
+	text-decoration: none;
+	
+}
+
+/* Style for anchor elements within the footer element */
+
+footer a {
+	
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+th  {
+	
+	 background-color: #F5F5F0;
+}
+
+table, th, td {
+	
+    border: 0.1em solid #000000;
+
+}
+
+caption {
+	
+    color: #003300;
+
+}
+
+td {
+	
+    height: 2em;
+	vertical-align: center;
+	
+
+}
+
+table {
+	
+    margin-top: 2em;
+	width: 80%;
+	border-collapse: collapse;
+
+}
+
+caption, th, td {
+	
+    padding: 1em;
+
+}
+
+.fa {
+	
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  
+}
+
+.fa:hover {
+	
+    opacity: 0.7;
+	
+}
+
+.fa-facebook {
+	
+  background: #3B5998;
+  color: white;
+  
+}
+
+.fa-twitter {
+	
+  background: #55ACEE;
+  color: white;
+  
+}
+
+.fa-google {
+	
+  background: #dd4b39;
+  color: white;
+  
+}
+
+.video  {
+	
+	padding: 1em;
+	text-align: center;
+	
+}
+
+/* Style rule for video element */
+
+video {
+	
+	border: 0.5em ridge #FFFFFF;
+	height: auto;
+	max-width: 100%;
+	
+}
+
+}
+
+/*Media query for desktop viewports*/
+@media only screen and (min-width: 769px) {
+	
+#container  {
+	
+	background-color: #1D1D1C;
+	
+}
+
+nav li  {
+	
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	text-align: center;
+	
+}
+
+nav li a  {
+	
+	display: inline-block;
+	padding: 0.7em;
+	text-shadow: 0.2em 0.1em: #3D3D35;
+	
+}
+
+nav li a:visited  {
+	
+	color: #CCCCFF;
+	
+}
+
+nav li a:hover  {
+	
+	color: #9D9D93;
+	font-style: italic;
+	
+}
+
+main
+{
+	
+	clear: left;
+	margin-top: -0.3em;
+	border-radius: 0;
+	
+}
+
+#main
+{
+	clear: both; 
+	text-align:left;
+	max-width: 100%;
+	border: solid 3px
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #404040;
+	text-align: center;
+	background-color: #ffe6e6;
+}
+
+th  {
+	
+	 background-color: #F5F5F0;
+}
+
+table, th, td {
+    border: 0.1em solid #000000;
+}
+
+main p  {
+	
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	
+}
+
+body  {
+	
+	background-color: #c1f0f0;;
+	
+}
+
+/* Style to left align header */
+
+header  {
+	
+	text-align: left;
+	
+}
+
+ /* Style for nav specifies a float, margin, and width */
+ 
+nav  {
+	
+	float: left;
+	margin-top: -7em;
+	margin-right: 3em;
+	margin-bottom: 0;
+	
+}
+
+ /* Style removes transparency on hover */
+ 
+figure img:hover  {
+	
+	opacity: 1;
+	
+}
+
+ /* Style applies color to h1 element */
+ 
+h1  {
+	 
+	color: #292933;
+	
+}
+ 
+/* Style specifies a background color, margin, and padding for 
+footer element */ 
+
+footer  {
+	
+	background-color: #c1f0f0;
+	margin-top: -0.2em;
+	padding: 2em;
+	
+}
+
+/*Style specifies color and left margin for the section */
+
+section  {
+	
+	color: black;
+	margin-left: 1em;
+	padding-bottom: 5em;
+	text-align: center;
+	
+}
+
+/* Style for anchor element within the section element */
+
+section p  {
+	
+	margin-left: 0;
+	
+}
+
+/* Style for contact class */
+ 
+.contact  {
+	 
+	background-color: transparent;
+	color: 1D1D1C;
+	padding: 0;
+	text-decoration: underline;
+	 
+}
+ 
+/* Style for main h2 element */ 
+
+main h2  {
+	
+	color: #FFFFFF;
+	
+}
+
+th  {
+	
+	 background-color: #F5F5F0;
+}
+
+table, th, td {
+	
+    border: 0.1em solid #000000;
+
+}
+
+caption {
+	
+    color: #003300;
+
+}
+
+td {
+	
+    height: 2em;
+	vertical-align: center;
+	
+
+}
+
+/* Style for table element */
+
+table  {
+	
+	background-color: #ffcccc;
+	width: 85%;
+
+}
+
+/* Style for caption element */
+
+caption  {
+	
+	color: #bf8040;
+	
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+	
+    opacity: 0.7;
+	
+}
+
+.fa-facebook {
+	
+  background: #3B5998;
+  color: white;
+  
+}
+
+.fa-twitter {
+	
+  background: #55ACEE;
+  color: white;
+  
+}
+
+.fa-google {
+	
+  background: #dd4b39;
+  color: white;
+  
+}
+
+.video  {
+	
+	padding: 1em;
+	text-align: center;
+	
+}
+
+/* Style rule for video element */
+
+video {
+	
+	border: 0.5em ridge #FFFFFF;
+	height: auto;
+	max-width: 100%;
+	
+}
+
+}
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+
