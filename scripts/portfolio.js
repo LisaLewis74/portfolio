@@ -18,6 +18,11 @@ function displayValues() {
   output += `<p>Name: ${fName} ${lName}</p>`;
   // add other fields here
 
+  // copy to output fields
+  for (const fld of ["fName", "lName", "sAddress", "city", "province", "pCode", "pNumber", "email"]) {
+    document.getElementById(fld + "_out").value = document.getElementById(fld).value;
+  }
+
   document.getElementById("output").innerHTML = output;
   console.log(output);
 }
