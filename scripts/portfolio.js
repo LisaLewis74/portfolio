@@ -5,15 +5,17 @@
 
 function displayValues() {
   let output = "";
-  // generate the output//
-  document.getElementById("fName").value = fName;
-  document.getElementById("lName").value = lName;
-  document.getElementById("address").value = address;
-  document.getElementById("city").value = city;
-  document.getElementById("province").value = province;
-  document.getElementById("code").value = code;
-  document.getElementById("pNumber").value = pNumber;
-  document.getElementById("email").value = email;
+
+  const fName = document.getElementById("fName").value;
+  const lName = document.getElementById("lName").value;
+  const address = document.getElementById("streetAddress").value;
+  const city = document.getElementById("city").value;
+  const province = document.getElementById("province").value;
+  const code = document.getElementById("code").value;
+  const pNumber = document.getElementById("pNumber").value;
+  const email = document.getElementById("email").value;
+
+
   document.getElementById("output").innerHTML = output;
   console.log(output);
 }
