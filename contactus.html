@@ -1,0 +1,162 @@
+<!--Lisa Anne Lewis 699355575, January 2, 2023-->
+<!DOCTYPE html>
+<head>
+	<title>Design Guru</title>	
+
+	<meta charset="utf-8">
+	<meta name="viewport" content = "width=device-width, initial-scale=1">
+	<html lang="en">
+	<script src="scripts/portfolio.js"></script>
+	<link rel="stylesheet" href="css/portfoliostyles10.css">	
+</head>
+<body>
+	
+	<div id="outerwrapper">
+	
+		<header>
+		
+            <img id="logo" class="desktop" src="images/logo.png" class="float-left alt= "Company Logo" height="250" width="250">
+			<img id="banner" class="desktop" src="images/banner.jpg" class="float-Left alt "banner" height="250" width= "1000">
+        	
+		</header>
+		
+		
+<br>
+	
+<div id = "intro">
+
+	<!--Navigation where the menu goes-->
+	<nav>
+		<!-- menu and working on getting the hover working -->
+			<div id = "inline"> <br>
+					
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<ul>	
+						
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Our Services</a></li>
+						<li><a href="education.html"> Education</a></li>
+						<li><a href="web_security.html">Web Security</a></li>
+						<li><a href="ourteam.html">Our Team</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="testtouch.html">Test Touchscreen</a></li>
+                        <li><a href="ajax.html">AJAX</a></li>
+					</ul>	
+			</div>	
+		</nav>
+
+	<form  name = "contact_form" onsubmit = "submit"><!--Start Form-->
+	<h2>Contact:</h2>
+	<br>
+	<p>To contact us please fill out the form below.</p>
+	<ul>
+		<li><label for="fName">First Name:</label>
+		<input type="text" id="fName" name="fName" required /></li>
+				
+		<li><label for="lName">Last Name:</label>
+		<input type="text" name="lName" id="lName" required /></li>
+		<br>
+		<br>
+		<li><label for="sAddress">Street Address:</label>
+		<input type="text" name="sAddress" id="sAddress" required /></li>
+		
+		<li><label for="city">City:</label>
+		<input type="text" name="city" id="city" required /></li>
+		<br>
+		<br>
+		<li><label for="province">Province:</label>
+		<select id ="province" id="province" required></li>
+				<option value="Alberta">Alberta</option>
+				<option value="BritishColumbia">British Columbia</option>
+				<option value="Manitoba">Manitoba</option>
+				<option value="NewBrunswick">New Brunswick</option>
+				<option value="Newfoundland">Newfoundland/Labrador</option>
+				<option value="NorthwestTerritories">Northwest Territories</option>
+				<option value="NovaScotia">Nova Scotia</option>
+				<option value="Nunavut">Nunavut</option>
+				<option value="Ontario">Ontario</option>
+				<option value="PEI">PEI</option>
+				<option value="Quebec">Quebec</option>
+				<option value="Saskatchewan">Saskatchewan</option>
+				<option value="Yukon">Yukon</option> 
+		</select>
+				<br>
+		<li><label for="pCode">Postal Code:</label>
+		<input type="text" name="pCode" id="pCode" required /></li>
+		<br>
+		<br>
+		<li><label for="pNumber">Phone Number:</label>
+		<input type="text" name="pNumber" id="pNumber" required /></li>
+		
+		<li><label for="email">Email:</label>
+		<input type="text" name="email" id="email" required /></li>
+		
+	</ul>
+	
+	<!--<input type="submit" id="submit" value ="Submit" class="btn" onclick="getData()"> -->
+	<input type="reset" id="reset" value="Reset Form" class="btn" onclick = "resetForm()"> 
+	<input type="button" value ="Submit" onclick = return getData()>
+
+</form>
+
+</div>
+	
+<div id = "main">
+
+				<label for="fName">First Name</label>
+                <input type="text" id="fName" name="fName">
+
+                <label for="lName:">Last Name</label>
+                <input type="text" id="lName" name="lName"><br>
+
+				<label for="Address:">Address</label>
+                <input type="text" id="saddress" name="address"><br>
+
+				<label for="citys:">City</label>
+                <input type="text" id="_city" name="city"><br>
+
+				<label for="province:">Province</label>
+                <input type="text" id="prov" name="province"><br>
+
+				<label for="pcode:">Postal Code</label>
+				<input type="text" id="postalcode" name="code"><br>
+
+				<label for="pNumber:">Phone Number</label>
+				<input type="text" id="pNumber" name="pNumber"><br>
+
+				<label for="email:">Email</label>
+				<input type="text" id="email" name="email"><br>             
+	<hr>
+	
+		<p><a class="mobile" href="tel: 6138583204">(613) 858-3204</a>
+		<span class="desktop"></span></p>
+		<span class="output"></span>
+		<p><a href="mailto:lisalewisprivate@gmail"
+		
+			
+		<p><a href="https://www.blogger.com/blog/posts/2133477570428915011 "class="blog">Blog</a></p>
+	
+</div>
+
+<!-- end outer wrapper -->	
+<span id="output"></span>
+
+	<!-- Use the footer are to add webpage footer content -->
+<div id="footer">
+<center>		
+	<ul>
+		<li><p>&copy; Copyright 2022. All Rights Reserved.</p> <br></li>
+	</ul>
+</center>
+</div>
+
+<span id="output"></span>
+	
+</body>
+
+</html>
