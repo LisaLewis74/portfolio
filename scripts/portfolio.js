@@ -110,7 +110,6 @@ function validateEmail() {
 
 if (window.addEventListener) {
   window.addEventListener("load", removeSelectDefaults, false);
-} else window.attachEvent;
-{
+} else {
   window.attachEvent("onload", removeSelectDefaults);
 }
