@@ -8,13 +8,15 @@ function displayValues() {
 
   const fName = document.getElementById("fName").value;
   const lName = document.getElementById("lName").value;
-  const address = document.getElementById("streetAddress").value;
+  const address = document.getElementById("sAddress").value;
   const city = document.getElementById("city").value;
   const province = document.getElementById("province").value;
-  const code = document.getElementById("code").value;
+  const code = document.getElementById("pCode").value;
   const pNumber = document.getElementById("pNumber").value;
   const email = document.getElementById("email").value;
 
+  output += `<p>Name: ${fName} ${lName}</p>`;
+  // add other fields here
 
   document.getElementById("output").innerHTML = output;
   console.log(output);
